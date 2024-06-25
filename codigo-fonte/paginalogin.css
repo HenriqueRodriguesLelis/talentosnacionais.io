@@ -1,0 +1,66 @@
+
+body{
+        
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+div{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left:50% ;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border-radius:30px;
+    
+}
+
+input{
+    padding: 13px;
+    border-radius: 25px;
+    outline-width:rgb(255, 0, 0) ;
+    font-size: 15px;
+    width: 90%;
+    
+}
+
+button{
+    background-color: #004cff;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    
+}    
+
+button:hover{
+    background-color: rgba(#000000,#004cff,);
+    cursor: pointer;
+    background-image: linear-gradient(45deg, #000000, #004cff);
+}
+
+img{
+    position: relative;
+    top: 40%;
+    left: 0%;
+    border: #000000;
+}
+
+.talento{
+    position: relative;
+    left: 5%
+}
+
+footer{
+    color: white;
+width: 100%;
+position: absolute;
+bottom: 0;
+left: 0%;
+font-size: x-large;
+}
+

@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('img/imagemfundo.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin-top: 00px;
+    width: 100%;
+    height: 100px;
+    padding: 100px;
+    font-size: xx-large;
+}
+
+header a#botaovoltar {
+    position: absolute;
+    right: 200px; /* Posiciona o botão de voltar à direita */
+    top: 100px;   /* Ajusta conforme necessário para posicionar verticalmente */
+}
+
+header a#botaovoltar img {
+    width: 100px; /* Ajusta o tamanho da imagem conforme necessário */
+    height: 100px;
+    border-radius: 50%; /* Borda circular para a imagem */
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px; /* Espaço entre o header e o main */
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+     width: 100%;
+    max-width: 1000px;
+   }
+
+.search-container input {
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.search-container button {
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: #005691;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    margin-left: 50px;
+}
+
+footer {
+    text-align: center;
+    margin: 200px;
+    padding: 200px;
+    font-size: xx-large;
+    color: white;
+}

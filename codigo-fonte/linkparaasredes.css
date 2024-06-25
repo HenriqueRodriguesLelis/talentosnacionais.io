@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #001f3f, #000000); 
+    background-image: url('img/imagemfundo.jpeg'); 
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: justify; 
+}
+
+header {
+    text-align: center;
+    padding: 70px;
+    width: 100%; 
+    position: relative; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    padding: 100px;
+    background-color: whitesmoke; 
+    border-radius: 30px;
+    border: 5px solid #fff; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    margin-top: 20px; 
+}
+
+.social-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #001f3fd8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    align-self: center;
+    width: 100%; 
+    max-width: 300px;
+    text-align: center;
+}
+
+.social-button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+#botaovoltar {
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+#botaovoltar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+}

@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #001f3f, #000000); 
+    background-image: url('img/imagemfundo.jpeg'); 
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: justify;
+    font-size: larger;
+}
+
+#about {
+    background-image: url('imagemfundo.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+}

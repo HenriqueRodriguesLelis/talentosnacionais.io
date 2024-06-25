@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="paginaprincipal.css">
+    <script type="module" src="paginaprincipal.js"></script>
+    <style>
+        fieldset {
+            padding: 100px;
+            margin: 100px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 50px;
+        }
+
+        fieldset div {
+            text-align: center;        
+        }
+
+        fieldset img {
+            width: 150px;
+        }
+
+        fieldset p {
+            margin: 50px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center; 
+            align-items: flex-start; 
+            margin-top: 10px; 
+        }
+    
+        form {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            width: 1000px;
+            }
+ 
+        input[type="text"], button {
+            margin: 10px; 
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="header-content">
+            <a href="homepage.html" id="btn-voltar"><img src="img/botaovoltarpadrão.png" alt="voltar"></a>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <fieldset>
+            <div>
+                <h1>Olá, Nome do usuário</h1> 
+            </div>
+
+            <div>
+                <a href="informaçõesprofissonais.html"><img src="img/criarcurriculoimg.png" width="80"><p>Criar Perfil</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="visualizarperfil.html"><img src="img/visualizarcurriculoimg.png" alt="Visualizar perfil" width="80"><p>Visualizar Perfil</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="linkparaasredes.html"><img src="img/redesociaisimg.png" alt="Cadastrar Redes Sociais" width="80"><p>Cadastrar Redes Sociais</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="sobrenos.html"><img src="img/sobrenosimg.png" alt="Sobre Nós" width="80"><p>Sobre Nós</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="cancelarconta.html"><img src="img/cancelarcontaimg.png" alt="cancelarconta" width="80"><p>Cancelar Conta</p>
+                </a>
+            </div>
+
+        </fieldset>
+    </div>
+
+    <div class="container">
+        <form id="formBusca">
+            <input type="text" name="Busca" id="Busca" placeholder="Digite sua Busca"> 
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+</body>
+
+<footer>
+    <p>Grupo G4 - Análise e Desenvolvimento de Sistemas - Puc Minas - 2024</p>  
+</footer>
+
+</html>

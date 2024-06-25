@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('img/imagemfundo.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: relative;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+}
+header #botaovoltar img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 30px;
+    margin: 40px;
+    padding: 10px;
+    
+}
+    
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    width: 70%; 
+    margin-top: 20px;
+}
+
+.search-container input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: x-large;
+    text-align: center;
+}
+
+.search-container button {
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: #005691;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    margin-left: 10px; 
+}
+
+.filters {
+    text-align: center;
+    margin: 20px;
+    font-size: x-large;
+}
+
+.results {
+    list-style-type: none;
+    width: 100%; 
+    padding: 10px;
+   
+}
+
+.result-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    padding: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    text-align: center;
+    font-size: x-large;
+    width: 50%; 
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: xx-large; 
+    color: white;
+}

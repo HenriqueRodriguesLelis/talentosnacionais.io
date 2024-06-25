@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="paginacadastro.css">
+    <script type="module" src="paginacadastro.js"></script>
+</head>
+<body>
+    <header> 
+        <a id="botaovoltar" href="homepage.html"><img src="img/botaovoltarpadrão.png" alt="voltar" /></a>   
+    </header>
+    <div>
+        <h2>Já Possui Conta?</h2>
+        <a href="paginalogin.html">Entre Aqui</a>
+    </div>
+    <form>
+        <fieldset>
+            <div>
+                <h1>Criar Nova Conta</h1>
+            </div>
+            <div>
+                <label for="Nome" class="visually-hidden">Nome Completo</label>
+                <input type="text" name="Nome" id="Nome" placeholder="Nome Completo"> 
+            </div>
+            <div>
+                <label for="Email" class="visually-hidden">E-mail</label>
+                <input type="email" name="Email" id="Email" placeholder=" E-mail">
+            </div>
+            <div>
+                <label for="username" class="visually-hidden">Usuário</label>
+                <input type="text" id="username" name="username" placeholder="Usuário" required>
+            </div>
+            <div>
+                <label for="password" class="visually-hidden">Senha</label>
+                <input type="password" name="password" id="password" placeholder=" Senha">
+            </div>
+            <div>
+                <label for="ConfirmarSenha" class="visually-hidden">Confirmar Senha</label>
+                <input type="password" name="ConfirmarSenha" id="ConfirmarSenha" placeholder=" Confirmar Senha">
+            </div>
+            <div>
+                <button type="submit">REGISTRAR</button>
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+       <p> Grupo G4 - Análise e Desenvolvimento de Sistemas - Puc </p>  
+    </footer>
+</body>
+</html>

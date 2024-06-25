@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualizar Perfil</title>
+  <link rel="stylesheet" href="visualizarperfil.css"> 
+  <script type="module" src="visualizarperfil.js"></script>
+
+</head>
+<body>
+  <header>
+    <a id="botaovoltar" href="paginaprincipal.html"><img src="img/botaovoltarpadrão.png" alt="voltar" /></a>   
+  </header>
+
+  <main>
+    <h2>Informações Profissionais</h2>
+ <section id="informaçoesprofissionais">
+  
+    <ul>
+        <li><span>Empresa</span> <span id="empresa"></span></li>
+        <li><span>Cargo:</span> <span id="cargo"></span></li>
+        <li><span>Função:</span> <span id="função"></span></li>
+        <li><span>Período:</span> <span id="inicio-view"></span> - <span id="fim-view"></span> (<span id="modalidade-view"></span>)</li>
+    </ul>
+    <input id="empresaInput" type="text" placeholder="Digite a empresa">
+
+ </section>
+ <h2>Graduação</h2>
+    <section id="graduacao">
+    
+      <ul>
+        <li><span>Formação:</span> <span id="formacao-view"></span></li>
+        <li><span>Curso:</span> <span id="curso-view"></span></li>
+        <li><span>Instituição:</span> <span id="instituicao-view"></span></li>
+        <li><span>Período:</span> <span id="inicio-view"></span> - <span id="fim-view"></span> (<span id="modalidade-view"></span>)</li>
+      </ul>
+      <input id="formacaoInput" type="text" placeholder="Digite a formação">
+      
+      
+    </section>
+
+    <h2>Cursos Extras</h2>
+    <section id="cursos-extras">
+        <ul>
+            <li><span>Formação:</span> <span id="formacao-view"></span></li>
+            <li><span>Curso:</span> <span id="curso-view"></span></li>
+            <li><span>Instituição:</span> <span id="instituicao-view"></span></li>
+            <li><span>Período:</span> <span id="inicio-view"></span> - <span id="fim-view"></span> (<span id="modalidade-view"></span>)</
+    </ul>
+    <input id="cursoInput" type="text" placeholder="Digite o curso extra">
+    
+    </section>
+
+    <h2>Portfólio</h2>
+    <section id="portfolio">
+        <ul>
+            <li><span>PDFprojeto:</span> <span id="PDFprojeto"></span></li>
+            <li><span>MP4videos:</span> <span id="MP4videos"></span></li>
+            </ul>
+          
+            <input id="arqruivo" type="file"> 
+            
+    </section>
+    <div class="button-container">
+        <button id="save"> Salvar </button>
+        <button id="Limpar"> Limpar Dados </button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Grupo G4 - Análise e Desenvolvimento de Sistemas - Puc Minas - 2024</p>
+  </footer>
+  
+  <script src="visualizarperfil.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("img/imagemfundo.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+header {
+    background-color: rgba(234, 234, 245, 0.014);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative; 
+}
+
+header #botaovoltar {
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    border-radius: 30px;
+}
+
+header #botaovoltar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    padding: 9px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+h2 {
+    color: #333;
+    text-align: justify;
+}
+
+.button-row {
+   margin: auto;
+   padding: auto;
+}
+
+.button-row input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    text-align:center;
+    align-items: center;
+    
+}
+
+.portfolio-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+     border-radius: 20px;
+}
+
+.add-button-square {
+    width: 30%;
+    padding: 20px;
+    border: 1px dashed #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#save-button {
+    display: block;
+    width: 40%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius:30px;
+margin: auto;
+}
